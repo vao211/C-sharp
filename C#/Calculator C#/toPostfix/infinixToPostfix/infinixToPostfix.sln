@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infinixToPostfix", "infinixToPostfix\infinixToPostfix.csproj", "{76B5181B-C8C0-43FA-A856-2C6770841DE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B5181B-C8C0-43FA-A856-2C6770841DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B5181B-C8C0-43FA-A856-2C6770841DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B5181B-C8C0-43FA-A856-2C6770841DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B5181B-C8C0-43FA-A856-2C6770841DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92904D96-EC5C-41E0-A2E7-2EF51B9D71E7}
+	EndGlobalSection
+EndGlobal

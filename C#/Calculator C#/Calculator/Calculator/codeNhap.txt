@@ -1,0 +1,94 @@
+﻿
+        //private double EvaluateExpression(string expression)
+        //{
+        //    // Tách các số và phép toán
+        //    var tokens = new List<string>();
+        //    int i = 0;
+
+        //    while (i < expression.Length)
+        //    {
+        //        if (char.IsDigit(expression[i]) || expression[i] == '.')
+        //        {
+        //            // Lấy số
+        //            string number = "";
+        //            while (i < expression.Length && (char.IsDigit(expression[i]) || expression[i] == '.'))
+        //            {
+        //                number += expression[i];
+        //                i++;
+        //            }
+        //            tokens.Add(number);
+        //        }
+        //        else if ("+-*/".Contains(expression[i]))
+        //        {
+        //            // Thêm phép toán vào danh sách
+        //            tokens.Add(expression[i].ToString());
+        //            i++;
+        //        }
+        //        else
+        //        {
+        //            i++;  // Bỏ qua ký tự không hợp lệ
+        //        }
+        //    }
+
+        //    // Tính toán kết quả
+        //    return Calculate(tokens);
+        //}
+
+        //private double Calculate(List<string> tokens)
+        //{
+        //    // Tính toán phép cộng và trừ trước
+        //    double total = 0;
+        //    double current = 0;
+        //    string lastOperation = "+";
+
+        //    foreach (var token in tokens)
+        //    {
+        //        if (double.TryParse(token, out current))
+        //        {
+        //            switch (lastOperation)
+        //            {
+        //                case "+":
+        //                    total += current;
+        //                    break;
+        //                case "-":
+        //                    total -= current;
+        //                    break;
+        //                case "x":
+        //                    total *= current;
+        //                    break;
+        //                case ":":
+        //                    if (current != 0)
+        //                        total /= current;
+        //                    else
+        //                        throw new DivideByZeroException("Không thể chia cho 0.");
+        //                    break;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            lastOperation = token;  // Cập nhật phép toán hiện tại
+        //        }
+        //    }
+
+        //    return total;
+        //}
+
+        //private void btnCal_Click_1(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        // Lấy chuỗi từ txtScreen
+        //        string input = txtScreen.Text;
+
+        //        // Xử lý phép tính
+        //        double result = EvaluateExpression(input);
+
+        //        // Hiển thị kết quả
+        //        txtScreen.Text = result.ToString();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Xử lý lỗi nếu có
+        //        MessageBox.Show("Lỗi: " + ex.Message);
+        //    }
+        //}
